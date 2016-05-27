@@ -10,7 +10,360 @@
       {
         "title": "Toon persoonsgegevens",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 383,
+                "y": 132
+              },
+              "angle": 0,
+              "id": "a4c1221a-66f6-4979-b25f-3cbbac118935",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "API"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 72,
+                "y": 251
+              },
+              "angle": 0,
+              "id": "0ca6ef3b-c2f8-4a20-9b23-9551e1af9fb7",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Ingelogde Werknemer"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 344,
+                "y": 362
+              },
+              "angle": 0,
+              "id": "4cb27e54-ce42-44d0-91d5-99192fbd9230",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Web"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "0ca6ef3b-c2f8-4a20-9b23-9551e1af9fb7"
+              },
+              "target": {
+                "id": "a4c1221a-66f6-4979-b25f-3cbbac118935"
+              },
+              "vertices": [
+                {
+                  "x": 237,
+                  "y": 185
+                },
+                {
+                  "x": 311,
+                  "y": 164
+                }
+              ],
+              "id": "68cfa04a-5d8d-4f0a-93d2-cb6aa2c1fa76",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Toon\npersoonsgegevens",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "0ca6ef3b-c2f8-4a20-9b23-9551e1af9fb7"
+              },
+              "target": {
+                "id": "4cb27e54-ce42-44d0-91d5-99192fbd9230"
+              },
+              "vertices": [
+                {
+                  "x": 330,
+                  "y": 329
+                }
+              ],
+              "id": "71f9122d-b385-42e3-967e-7cbaa307979b",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Haal App op",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "4cb27e54-ce42-44d0-91d5-99192fbd9230"
+              },
+              "target": {
+                "id": "0ca6ef3b-c2f8-4a20-9b23-9551e1af9fb7"
+              },
+              "vertices": [
+                {
+                  "x": 224,
+                  "y": 399
+                }
+              ],
+              "id": "34881395-9682-44f6-9d24-eaf6f82e45d4",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Geef app terug",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 711,
+                "y": 132
+              },
+              "angle": 0,
+              "id": "a7c423e3-7123-4c9e-a6a9-6b5be44a89df",
+              "z": 7,
+              "hasOpenThreats": false,
+              "isALog": true,
+              "isEncrypted": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "User DB"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "a4c1221a-66f6-4979-b25f-3cbbac118935"
+              },
+              "target": {
+                "id": "a7c423e3-7123-4c9e-a6a9-6b5be44a89df"
+              },
+              "vertices": [
+                {
+                  "x": 564,
+                  "y": 139
+                }
+              ],
+              "id": "885d46e2-50fe-404d-aa85-e7d1d24cee6d",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "SQL Request",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "a7c423e3-7123-4c9e-a6a9-6b5be44a89df"
+              },
+              "target": {
+                "id": "a4c1221a-66f6-4979-b25f-3cbbac118935"
+              },
+              "vertices": [
+                {
+                  "x": 567,
+                  "y": 264
+                },
+                {
+                  "x": 493,
+                  "y": 227
+                }
+              ],
+              "id": "8c4c355b-c1de-4a3f-957e-a7dfbf8e83d4",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "SQL Response",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 9,
+              "hasOpenThreats": false,
+              "isEncrypted": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "a4c1221a-66f6-4979-b25f-3cbbac118935"
+              },
+              "target": {
+                "id": "0ca6ef3b-c2f8-4a20-9b23-9551e1af9fb7"
+              },
+              "vertices": [],
+              "id": "e099a77a-7f65-452f-b001-0fbade3463b6",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Persoonsgegevens",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 10,
+              "hasOpenThreats": false,
+              "isEncrypted": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 885
+        }
       }
     ]
   },
