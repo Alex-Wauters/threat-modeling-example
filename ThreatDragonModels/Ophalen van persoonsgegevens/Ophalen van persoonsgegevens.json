@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "title": "Ophalen van persoonsgegevens",
+    "owner": "Company Inc.",
+    "description": "In het systeem van Company Inc. kunnen eindgebruikers en HR-medewerkers persoonsgegevens en loonsgegevens opvragen."
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": []
+  },
+  "location": {
+    "organisation": "Alex-Wauters",
+    "repo": "threat-modeling-example",
+    "branch": "master",
+    "model": "Ophalen van persoonsgegevens"
+  }
+}
